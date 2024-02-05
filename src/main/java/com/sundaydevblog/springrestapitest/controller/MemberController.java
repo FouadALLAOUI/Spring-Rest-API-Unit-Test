@@ -71,6 +71,7 @@ public class MemberController {
     }
 
     public void sayHi(){
+        //---------------------------------------------------
         System.out.println("--- Hello and welcome to RIO ---");
     }
 
