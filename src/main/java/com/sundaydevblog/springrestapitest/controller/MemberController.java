@@ -69,4 +69,9 @@ public class MemberController {
                             "Member with ID: '" + id + "' not found."), HttpStatus.NOT_FOUND);
         }
     }
+
+    public void sayHi(){
+        System.out.println("--- Hello and welcome to RIO ---");
+    }
+
 }
